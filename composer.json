@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.3",
-        "litgroup/event-loop-bundle": "0.2.*",
+        "litgroup/event-loop-bundle": "0.3.*",
         "react/dns": "0.4.*"
     },
     "require-dev": {
