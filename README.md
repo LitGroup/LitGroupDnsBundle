@@ -54,7 +54,7 @@ Configuration
 ```yaml
 lit_group_dns:
     nameserver: '8.8.8.8' // Nameserver IP address (required):
-    cache: true         // Use cached DNS resolver (optional, default: false)
+    cache: true           // Use cached DNS resolver (optional, default: false)
 ```
 
 Usage
