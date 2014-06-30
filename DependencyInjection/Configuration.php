@@ -36,7 +36,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('nameserver')
                     ->isRequired()
                     ->cannotBeEmpty()
-                    ->example('8.8.8.8')
+                    ->example('"8.8.8.8"')
                 ->end()
 
                 ->booleanNode('cache')

@@ -62,8 +62,6 @@ class LitGroupDnsExtensionTest extends \PHPUnit_Framework_TestCase
         $this->assertCount(2, $arguments);
         $this->assertSame($config['nameserver'], $arguments[0]);
         $this->assertReference('litgroup_event_loop', $arguments[1]);
-
-
     }
 
     private function assertReference($expectedId, $reference)

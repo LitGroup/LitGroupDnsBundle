@@ -9,9 +9,9 @@
 
         <!-- DNS Resolver -->
         <service id="litgroup_dns.resolver" class="React\Dns\Resolver\Resolver"
-                 factory-service="litgroup_dns.resolver_factory"> <!-- factory method configuration-related -->
+                 factory-service="litgroup_dns.resolver_factory"> <!-- Factory method is related from configuration -->
 
-            <argument/> <!-- Nameserver IP Address -->
+            <argument/> <!-- Nameserver IP address -->
             <argument type="service" id="litgroup_event_loop"/>
 
         </service>
