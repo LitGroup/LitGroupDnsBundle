@@ -1,0 +1,33 @@
+{
+    "name": "litgroup/dns-bundle",
+    "description": "React DNS integration for Symfony2.",
+    "keywords": ["dns", "async", "react"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Shamritskiy",
+            "email": "roman@litgroup.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~2.3",
+        "react/dns": "0.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*@stable"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "LitGroup\\Bundle\\DnsBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
