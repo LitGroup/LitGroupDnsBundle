@@ -1,6 +1,8 @@
 LitGroupDnsBundle
 =================
 
+🚫 **(This project is no longer maintained.)**
+
 This bundle integrates [React DNS][1] into the Symfony 2 environment.
 
 [![Latest Stable Version](https://poser.pugx.org/litgroup/dns-bundle/v/stable.svg)](https://packagist.org/packages/litgroup/dns-bundle)
